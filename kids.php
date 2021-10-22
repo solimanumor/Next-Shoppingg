@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Next Shopping</title>
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="shortcut icon" href="panda-commerce-master/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="custom style.css">
+    <link rel="shortcut icon" href="panda-commerce-master/logo.png" type="image/x-icon">
 </head>
 <body>
     <!-- header start -->
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active fw-bold" aria-current="page" href="Index.html">Home</a>
+                  <a class="nav-link active fw-bold" aria-current="page" href="Index.php">Home</a>
                 </li>
                 
                 <li class="nav-item dropdown">
@@ -32,9 +32,9 @@
                     Catagories
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="men.html">Men</a></li>
-                    <li><a class="dropdown-item" href="women.html">Women</a></li>
-                    <li><a class="dropdown-item" href="kids.html">Kids</a></li>
+                    <li><a class="dropdown-item" href="men.php">Men</a></li>
+                    <li><a class="dropdown-item" href="women.php">Women</a></li>
+                    <li><a class="dropdown-item" href="kids.php">Kids</a></li>
                   </ul>
                 </li>
                 
@@ -54,13 +54,13 @@
                   <div class="carousel-item active ">
                       <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5">
                           <div class="col-lg-7">
-                              <h1>Stylish shoes for men</h1>
-                              <p>Be it for a road trip or a daily outing, there are various footwear designs ideally crafted for each men</p>
-                              <h1>Taka-420/-</h1>
+                              <h1>Cool watches for kids</h1>
+                              <p>Kids Smart Watches with Tracker Phone Call for Boys Girls, Waterproof IP67, Digital Wrist Watch, Sport Smart Watch</p>
+                              <h1>Taka-320/-</h1>
                               <div class="btn btn button-color">Buy Now</div>
                           </div>
                           <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/shoes/shoe-3.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/childs/slider-img/kw-5.png" class="d-block w-100" alt="...">
                            </div>
                       </div>
                    
@@ -68,13 +68,13 @@
                   <div class="carousel-item ">
                     <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5">
                         <div class="col-lg-7 ">
-                            <h1>Fashionable bag for women</h1>
+                            <h1>Dreamy bag for kids</h1>
                             <p>The high-quality luggage that can accompany you all over the world</p>
                             <h1>Taka-350/- </h1>
                             <div class="btn btn button-color">Buy Now</div>
                         </div>
                         <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/banner-images/2.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/childs/slider-img/kb-5-removebg-preview.png" class="d-block w-100" alt="...">
                          </div>
                     </div>
                     
@@ -111,12 +111,12 @@
                 <div class="row g-4">
                   <div class="col-lg-4 col-md-6">
                     <div class="p-3 border rounded-3 catagory-background-one d-flex align-items-center justify-content-between"><h1 class="text-white">Watch</h1>
-                        <img src="panda-commerce-master/images/categories/watch.png" alt="">
+                        <img src="panda-commerce-master/images/childs/catagories/kw-4.png" alt="">
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <div class="p-3 border rounded-3 catagory-background-two d-flex align-items-center justify-content-between"><h1 class="text-white">Bag</h1>
-                        <img src="panda-commerce-master/images/categories/ll.png" alt=""></div>
+                        <img src="panda-commerce-master/images/childs/catagories/kb-4-removebg-preview.png" alt=""></div>
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <div class="p-3 border rounded-3 catagory-background-three d-flex align-items-center justify-content-between"><h1 class="text-white">Kids dress</h1>
@@ -132,78 +132,84 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/bags/b1.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/childs/bag/kb-2-removebg-preview.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Rainbow ash </h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Kids' Backpack- Planete Ecole The Little Prince</h5>
+                      <p class="card-text">For school, sports, weekends, outings, or holidays, your child will be able to put in this pretty backpack all he/she loves!.</p>
                     </div>
                     <div class="m-3">
+                        <h4>Taka-2290/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/bags/b2.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/childs/bag/kb-3-removebg-preview.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Dark brown Bag</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Kids School Bag</h5>
+                      <p class="card-text">Being one of the renowned organizations in the industry, we are highly engaged in providing a premium quality range of Kids School Bag.</p>
                     </div>
                     <div class="m-3">
+                        <h4>Taka-1290/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/men/bag/bag-3.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/childs/bag/kb-6-removebg-preview.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Black Ninja bag</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <h5 class="card-title">Kids' Backpack - NEO Owl</h5>
+                      <p class="card-text">Backpack, Backpack! With our Neo backpack, even Dora will envy your child! For a girl or a boy, our Neo backpack will accompany your child.</p>
                     </div>
                     <div class="m-3">
+                        <h4>Taka-1590/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
               </div>
         </section>
-        <!-- shoes -->
+        <!-- watch -->
         <section class="container mb-5" id="Shoes">
-            <h1>Shoes</h1>
+            <h1>kids Watch</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/childs/Watches/kw-1-removebg-preview.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Red Dragon shoes</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Spiderman iTime Kids Smart Watch, 40 MM</h5>
+                      <p class="card-text">Spider-Man iTime Kids' Smart Watch in multi-printed rubber strap, square red case; Functions Include: 3 wallpapers.</p>
                     </div>
                     <div class="m-3">
+                        <h4>Taka-290/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/childs/Watches/kw-2-removebg-preview.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Blue Ocian shoes</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Ice-Watch 014428 watch - ICE Ola Kids</h5>
+                      <p class="card-text">Dare to mix bold colours with the ICE ola kids Robot! This small ultramarine blue soft silicone watch with bright orange detailing.</p>
                     </div>
                     <div class="m-3">
+                        <h4>Taka-390/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/childs/Watches/kw-3-removebg-preview.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Black Ninja Shoes</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <h5 class="card-title">CakCity Kids Watch Waterproof Boys Wrist Watch</h5>
+                      <p class="card-text">Precise Time & Powerful Battery: Our kids analog watch use Quartz Movement to provide precise and accurate time keeping.</p>
                     </div>
                     <div class="m-3">
+                        <h4>Taka-590/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
@@ -212,7 +218,7 @@
         </section>
         <!-- Kids Dress -->
         <section class="container mb-5" id="Shoes">
-          <h1>Kids Dress</h1>
+          <h1>Kids Dresses</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
               <div class="col ">
                 <div class="card border-0 h-100 shadow-lg ">
@@ -222,6 +228,7 @@
                     <p class="card-text"> whether it's effortless maxis in mustard yellow or floral printed midis</p>
                   </div>
                   <div class="m-3">
+                    <h4>Taka-1290/-</h4>
                     <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>
@@ -234,6 +241,7 @@
                     <p class="card-text">Children's printed and embroidered Panjabis made with comfortable fabric to fit you perfectly!.</p>
                   </div>
                   <div class="m-3">
+                    <h4>Taka-2290/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>
@@ -246,6 +254,7 @@
                     <p class="card-text">Dark Pink puff sleeve shirred tea dress in blue daisy print gingham</p>
                   </div>
                   <div class="m-3">
+                    <h4>Taka-2390/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>

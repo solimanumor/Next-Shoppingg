@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active fw-bold" aria-current="page" href="Index.html">Home</a>
+                  <a class="nav-link active fw-bold" aria-current="page" href="Index.php">Home</a>
                 </li>
                 
                 <li class="nav-item dropdown">
@@ -32,9 +32,9 @@
                     Catagories
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="men.html">Men</a></li>
-                    <li><a class="dropdown-item" href="women.html">Women</a></li>
-                    <li><a class="dropdown-item" href="kids.html">Kids</a></li>
+                    <li><a class="dropdown-item" href="men.php">Men</a></li>
+                    <li><a class="dropdown-item" href="women.php">Women</a></li>
+                    <li><a class="dropdown-item" href="kids.php">Kids</a></li>
                   </ul>
                 </li>
                 
@@ -54,13 +54,13 @@
                   <div class="carousel-item active ">
                       <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5">
                           <div class="col-lg-7">
-                              <h1>Stylish shoes for men</h1>
-                              <p>Be it for a road trip or a daily outing, there are various footwear designs ideally crafted for each men</p>
-                              <h1>Taka-620/-</h1>
+                              <h1>Stylish shoes for women</h1>
+                              <p>Be it for a road trip or a daily outing, there are various footwear designs ideally crafted for each women</p>
+                              <h1>Taka-420/-</h1>
                               <div class="btn btn button-color">Buy Now</div>
                           </div>
                           <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/shoes/shoe-2.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/women/slider-img/ws-1.png" class="d-block w-100" alt="...">
                            </div>
                       </div>
                    
@@ -68,13 +68,13 @@
                   <div class="carousel-item ">
                     <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5">
                         <div class="col-lg-7 ">
-                            <h1>Fashionable watch for men</h1>
+                            <h1>Fashionable bag for women</h1>
                             <p>The high-quality luggage that can accompany you all over the world</p>
                             <h1>Taka-350/- </h1>
                             <div class="btn btn button-color">Buy Now</div>
                         </div>
                         <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/men/slider-img/w2.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/banner-images/2.png" class="d-block w-100" alt="...">
                          </div>
                     </div>
                     
@@ -82,13 +82,13 @@
                   <div class="carousel-item">
                     <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5 ">
                         <div class="col-lg-7">
-                            <h1>Trendy bags</h1>
-                            <p>Shop latest collections of Kids Fashion for your boy and girl</p>
-                            <h1>taka-1250/- </h1>
+                            <h1>Trendy dresses</h1>
+                            <p>Shop latest collections of Kids Fashion for you</p>
+                            <h1>taka-250/- </h1>
                             <div class="btn btn button-color">Buy Now</div>
                         </div>
                         <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/men/slider-img/bag-1.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/women/slider-img/wd-5.png" class="d-block w-100" alt="...">
                          </div>
                     </div>
                   
@@ -110,17 +110,17 @@
         <section class="container my-5 catagory">
                 <div class="row g-4">
                   <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border rounded-3 catagory-background-one d-flex align-items-center justify-content-between"><h1 class="text-white">Watch</h1>
-                        <img src="panda-commerce-master/images/categories/watch.png" alt="">
+                    <div class="p-3 border rounded-3 catagory-background-one d-flex align-items-center justify-content-between"><h1 class="text-white">Shoes</h1>
+                        <img src="panda-commerce-master/images/women/catagories/ws-2.png" alt="">
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <div class="p-3 border rounded-3 catagory-background-two d-flex align-items-center justify-content-between"><h1 class="text-white">Bag</h1>
-                        <img src="panda-commerce-master/images/categories/bag.png" alt=""></div>
+                        <img src="panda-commerce-master/images/categories/ll.png" alt=""></div>
                   </div>
                   <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border rounded-3 catagory-background-three d-flex align-items-center justify-content-between"><h1 class="text-white">Shoe</h1>
-                        <img src="panda-commerce-master/images/men/catagories/shoes.png" alt=""></div>
+                    <div class="p-3 border rounded-3 catagory-background-three d-flex align-items-center justify-content-between"><h1 class="text-white">Dress</h1>
+                        <img src="panda-commerce-master/images/women/wd-4.png" alt=""></div>
                   </div>
                   
                 </div>
@@ -132,39 +132,39 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/men/bag/bag-1.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/bags/b1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Ruby Red</h5>
-                      <p class="card-text"> A multi-compartment laptop backpack has a cushioned sleeve that can hold several sizes</p>
+                      <h5 class="card-title">Rainbow ash </h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div class="m-3">
-                        <h3>Taka-1000/-</h3>
+                        <h4>Taka-1250/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/men/bag/bag-2.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/bags/b2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Blue backpack</h5>
-                      <p class="card-text"> Traveling, Hiking and Hitting the Road When you're on the move, your backpack is your constant companion.</p>
+                      <h5 class="card-title">Dark brown Bag</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="m-3">
-                        <h3>Taka-1200/-</h3>
+                        <h4>Taka-2250/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/men/bag/bag-3.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/bags/b3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Black Ninja bag</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                     <div class="m-3">
-                        <h3>Taka-800/-</h3>
+                        <h4>Taka-3250/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
@@ -177,84 +177,84 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/women/shoes/ws-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Red Dragon shoes</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Ladies Chappal</h5>
+                      <p class="card-text">Ladies Chappal Series 01 Price 1050 to 3500 – Original Brand</p>
                     </div>
                     <div class="m-3">
-                        <h3>Taka-1050/-</h3>
+                        <h4>Taka-250/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/women/shoes/ws-4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Blue Ocian shoes</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Party Girl Red Flat Sandal</h5>
+                      <p class="card-text">A lightweight and comfortable open toe flat sandal with synthetic upper and PU sole that will give an elegant look.</p>
                     </div>
                     <div class="m-3">
-                        <h3>Taka-1500/-</h3>
+                        <h4>Taka-270/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
                 <div class="col ">
                   <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <img src="panda-commerce-master/images/women/shoes/ws-5.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Black Ninja Shoes</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <h5 class="card-title">Womens Flat Sandal</h5>
+                      <p class="card-text">The comfortable white sandals have fully encased back which ensures wearer comfort</p>
                     </div>
                     <div class="m-3">
-                        <h3>Taka-1100/-</h3>
+                        <h4>Taka-500/-</h4>
                         <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
               </div>
         </section>
-        <!-- Watches -->
+        <!--  Dress -->
         <section class="container mb-5" id="Shoes">
-          <h1>Watches</h1>
+          <h1>Women Dress</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
               <div class="col ">
                 <div class="card border-0 h-100 shadow-lg ">
-                  <img src="panda-commerce-master/images/men/Watches/w1.png" class="card-img-top" alt="...">
+                  <img src="panda-commerce-master/images/women/dress/wd-1.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">The 81 Best Watches for Men 2021 </h5>
-                    <p class="card-text"> The 81 Best Watches for Men 2021 | Every Budget | Esquire</p>
+                    <h5 class="card-title">Mudrika Long Length Cotton Maxi</h5>
+                    <p class="card-text">Mudrika Long Length Cotton Maxi Gown with Belt Comfort FIT (Multicolour, Free Size)</p>
                   </div>
                   <div class="m-3">
-                    <h3>Taka-1560/-</h3>
+                    <h4>Taka-2150/-</h4>
                     <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>
               </div>
               <div class="col ">
                 <div class="card border-0 h-100 shadow-lg ">
-                  <img src="panda-commerce-master/images/men/Watches/w2.png" class="card-img-top" alt="...">
+                  <img src="panda-commerce-master/images/women/dress/wd-2.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">CK MEN WATCH WITH DATE ACTIVE</h5>
-                    <p class="card-text">Product Description:, Product Type: WatchBrand : CKGender : MenColor : GrayCK MEN WATCH WITH DATE ACTIVE.</p>
+                    <h5 class="card-title">Mudrika Women Cotton Long Dresses Anarkali Dress</h5>
+                    <p class="card-text">Mudrika offers you to attract compliments by this attractive stitched Gown made with fine quality material and beautiful work.</p>
                   </div>
                   <div class="m-3">
-                    <h3>Taka-700/-</h3>
+                    <h4>Taka-1250/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>
               </div>
               <div class="col ">
                 <div class="card border-0 h-100 shadow-lg">
-                  <img src="panda-commerce-master/images/men/Watches/w3.png" class="card-img-top" alt="...">
+                  <img src="panda-commerce-master/images/women/dress/wd-3.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Emporio Armani Watche</h5>
-                    <p class="card-text">Emporio Armani Watches for Men: Shop Armani Watches For Men - Watch Station</p>
+                    <h5 class="card-title">Elegant women dress</h5>
+                    <p class="card-text">elegant women dress new 2021 summer v neck bandage casual dresses ladies korean office dress</p>
                   </div>
                   <div class="m-3">
-                    <h3>Taka-2000/-</h3>
+                    <h4>Taka-2550/-</h4>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>
