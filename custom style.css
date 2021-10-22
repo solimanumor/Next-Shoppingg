@@ -1,0 +1,23 @@
+.panda-Background{
+    background-color: #fceae8;
+}
+.catagory-background-one{
+    background-color: #ffa500;
+}
+.catagory-background-two{
+    background-color: #da70d6;
+}
+.catagory-background-three{
+    background-color: #0000ff;
+}
+.catagory img{
+    width: 100px;
+}
+.button-color{
+    background-color: #ff2077;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: 0;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+
+}
