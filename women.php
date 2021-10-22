@@ -1,3 +1,8 @@
+<?php
+$connection = mysqli_connect('localhost','root','','next-shopping');
+mysqli_set_charset($connection,'utf8');
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,97 +135,85 @@
         <section class="container mb-5"  id="Bags">
             <h1>Bags</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
-                <div class="col ">
+            <?php
+                $bag = mysqli_query($connection,"SELECT * FROM women_bag2");
+                while($row=mysqli_fetch_array($bag)){
+                  ?>
+                  <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/bags/b1.png" class="card-img-top" alt="...">
+                    <img src="<?php echo $row['img']; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Rainbow ash </h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title"><?php echo $row['tittle']; ?></h5>
+                      <p class="card-text"><?php echo $row['des']; ?></p>
                     </div>
                     <div class="m-3">
-                        <h4>Taka-1250/-</h4>
+                        <h3>Taka-<?php echo $row['price']; ?>/-</h3>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/bags/b2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Dark brown Bag</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-2250/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ">
-                  <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/bags/b3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Black Ninja bag</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-3250/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
+
+                <?php
+                }
+              ?>
               </div>
         </section>
         <!-- shoes -->
         <section class="container mb-5" id="Shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
-                <div class="col ">
+            <?php
+                $shoe = mysqli_query($connection,"SELECT * FROM women_shoes");
+                while($row=mysqli_fetch_array($shoe)){
+                  ?>
+                  <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/women/shoes/ws-3.png" class="card-img-top" alt="...">
+                    <img src="<?php echo $row['img']; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Ladies Chappal</h5>
-                      <p class="card-text">Ladies Chappal Series 01 Price 1050 to 3500 – Original Brand</p>
+                      <h5 class="card-title"><?php echo $row['tittle']; ?></h5>
+                      <p class="card-text"><?php echo $row['des']; ?></p>
                     </div>
                     <div class="m-3">
-                        <h4>Taka-250/-</h4>
+                        <h3>Taka-<?php echo $row['price']; ?>/-</h3>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
-                <div class="col ">
-                  <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/women/shoes/ws-4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Party Girl Red Flat Sandal</h5>
-                      <p class="card-text">A lightweight and comfortable open toe flat sandal with synthetic upper and PU sole that will give an elegant look.</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-270/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ">
-                  <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/women/shoes/ws-5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Womens Flat Sandal</h5>
-                      <p class="card-text">The comfortable white sandals have fully encased back which ensures wearer comfort</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-500/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
+
+                <?php
+                }
+              ?>
+
+
+                
               </div>
         </section>
         <!--  Dress -->
         <section class="container mb-5" id="Shoes">
           <h1>Women Dress</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
-              <div class="col ">
+          <?php
+                $dress = mysqli_query($connection,"SELECT * FROM women_dress");
+                while($row=mysqli_fetch_array($dress)){
+                  ?>
+                  <div class="col ">
+                  <div class="card border-0 h-100 shadow-lg ">
+                    <img src="<?php echo $row['img']; ?>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><?php echo $row['tittle']; ?></h5>
+                      <p class="card-text"><?php echo $row['des']; ?></p>
+                    </div>
+                    <div class="m-3">
+                        <h3>Taka-<?php echo $row['price']; ?>/-</h3>
+                      <button class="btn button-color rounded-pill">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <?php
+                }
+              ?>
+              <!-- <div class="col ">
                 <div class="card border-0 h-100 shadow-lg ">
                   <img src="panda-commerce-master/images/women/dress/wd-1.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -258,7 +251,7 @@
                       <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
       </section>
         <!-- Subscription -->

@@ -1,3 +1,7 @@
+<?php
+$connection = mysqli_connect('localhost','root','','next-shopping');
+mysqli_set_charset($connection,'utf8');
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,90 +134,59 @@
         <section class="container mb-5"  id="Bags">
             <h1>Bags</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
-                <div class="col ">
+
+            <?php
+                $bag = mysqli_query($connection,"SELECT * FROM kid_bag");
+                while($row=mysqli_fetch_array($bag)){
+                  ?>
+                  <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/childs/bag/kb-2-removebg-preview.png" class="card-img-top" alt="...">
+                    <img src="<?php echo $row['img']; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Kids' Backpack- Planete Ecole The Little Prince</h5>
-                      <p class="card-text">For school, sports, weekends, outings, or holidays, your child will be able to put in this pretty backpack all he/she loves!.</p>
+                      <h5 class="card-title"><?php echo $row['tittle']; ?></h5>
+                      <p class="card-text"><?php echo $row['des']; ?></p>
                     </div>
                     <div class="m-3">
-                        <h4>Taka-2290/-</h4>
+                        <h3>Taka-<?php echo $row['price']; ?>/-</h3>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/childs/bag/kb-3-removebg-preview.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Kids School Bag</h5>
-                      <p class="card-text">Being one of the renowned organizations in the industry, we are highly engaged in providing a premium quality range of Kids School Bag.</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-1290/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ">
-                  <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/childs/bag/kb-6-removebg-preview.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Kids' Backpack - NEO Owl</h5>
-                      <p class="card-text">Backpack, Backpack! With our Neo backpack, even Dora will envy your child! For a girl or a boy, our Neo backpack will accompany your child.</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-1590/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
+
+                <?php
+                }
+              ?>
+                
               </div>
         </section>
         <!-- watch -->
         <section class="container mb-5" id="Shoes">
             <h1>kids Watch</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
-                <div class="col ">
+
+            <?php
+                $watch = mysqli_query($connection,"SELECT * FROM kid_watch");
+                while($row=mysqli_fetch_array($watch)){
+                  ?>
+                  <div class="col ">
                   <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/childs/Watches/kw-1-removebg-preview.png" class="card-img-top" alt="...">
+                    <img src="<?php echo $row['img']; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Spiderman iTime Kids Smart Watch, 40 MM</h5>
-                      <p class="card-text">Spider-Man iTime Kids' Smart Watch in multi-printed rubber strap, square red case; Functions Include: 3 wallpapers.</p>
+                      <h5 class="card-title"><?php echo $row['tittle']; ?></h5>
+                      <p class="card-text"><?php echo $row['des']; ?></p>
                     </div>
                     <div class="m-3">
-                        <h4>Taka-290/-</h4>
+                        <h3>Taka-<?php echo $row['price']; ?>/-</h3>
                       <button class="btn button-color rounded-pill">Buy Now</button>
                     </div>
                   </div>
                 </div>
-                <div class="col ">
-                  <div class="card border-0 h-100 shadow-lg ">
-                    <img src="panda-commerce-master/images/childs/Watches/kw-2-removebg-preview.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Ice-Watch 014428 watch - ICE Ola Kids</h5>
-                      <p class="card-text">Dare to mix bold colours with the ICE ola kids Robot! This small ultramarine blue soft silicone watch with bright orange detailing.</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-390/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col ">
-                  <div class="card border-0 h-100 shadow-lg">
-                    <img src="panda-commerce-master/images/childs/Watches/kw-3-removebg-preview.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">CakCity Kids Watch Waterproof Boys Wrist Watch</h5>
-                      <p class="card-text">Precise Time & Powerful Battery: Our kids analog watch use Quartz Movement to provide precise and accurate time keeping.</p>
-                    </div>
-                    <div class="m-3">
-                        <h4>Taka-590/-</h4>
-                        <button class="btn button-color rounded-pill">Buy Now</button>
-                    </div>
-                  </div>
-                </div>
+
+                <?php
+                }
+              ?>
+
+                
               </div>
         </section>
         <!-- Kids Dress -->
