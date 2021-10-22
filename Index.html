@@ -12,48 +12,55 @@
 <body>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="panda-commerce-master/images/logo.png" alt=""  class="d-inline-block align-text-top">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Shoes">Shoes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Bags">Backpack</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#subscribe">Subscribe</a>
-                  </li>
-                  
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
+          <div class="container ">
+            <a class="navbar-brand" href="#"> 
+                <img  src="panda-commerce-master/logo.png" alt="">
+                <span>Next Shopping</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                </li>
                 
-              </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fw-bold text-reset " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catagories
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Men</a></li>
+                    <li><a class="dropdown-item" href="#">Women</a></li>
+                    <li><a class="dropdown-item" href="#">Kids</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+              
+              <form class="d-flex justify-content-between">
+                
+                <button class="btn btn-outline-success " type="submit">Login</button>
+              </form>
             </div>
+          </div>
           </nav>
           <!-- Image slider -->
-          <section class="container">
+          <section class="container mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active ">
                       <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5">
                           <div class="col-lg-7">
-                              <h1>Cool Dude Headphon</h1>
-                              <p>This is the best headphone in the world for people who just want to waste time in front of funky world</p>
-                              <h1>$420</h1>
+                              <h1>Stylish shoes for men</h1>
+                              <p>Be it for a road trip or a daily outing, there are various footwear designs ideally crafted for each men</p>
+                              <h1>Taka-420/-</h1>
                               <div class="btn btn button-color">Buy Now</div>
                           </div>
                           <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/shoes/shoe-3.png" class="d-block w-100" alt="...">
                            </div>
                       </div>
                    
@@ -61,13 +68,13 @@
                   <div class="carousel-item ">
                     <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5">
                         <div class="col-lg-7 ">
-                            <h1>Cool Dude Headphon</h1>
-                            <p>This is the best headphone in the world for people who just want to waste time in front of funky world</p>
-                            <h1>$420</h1>
+                            <h1>Fashionable bag for women</h1>
+                            <p>The high-quality luggage that can accompany you all over the world</p>
+                            <h1>Taka-350/- </h1>
                             <div class="btn btn button-color">Buy Now</div>
                         </div>
                         <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/banner-images/2.png" class="d-block w-100" alt="...">
                          </div>
                     </div>
                     
@@ -75,13 +82,13 @@
                   <div class="carousel-item">
                     <div class="row panda-Background bg-gradient border rounded d-flex align-items-center p-5 ">
                         <div class="col-lg-7">
-                            <h1>Cool Dude Headphon</h1>
-                            <p>This is the best headphone in the world for people who just want to waste time in front of funky world</p>
-                            <h1>$420</h1>
+                            <h1>Trendy kids dress</h1>
+                            <p>Shop latest collections of Kids Fashion for your boy and girl</p>
+                            <h1>taka-250/- </h1>
                             <div class="btn btn button-color">Buy Now</div>
                         </div>
                         <div class="col-lg-5">
-                            <img src="panda-commerce-master/images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            <img src="panda-commerce-master/images/banner-images/1.png" class="d-block w-100" alt="...">
                          </div>
                     </div>
                   
@@ -203,6 +210,48 @@
                 </div>
               </div>
         </section>
+        <!-- Kids Dress -->
+        <section class="container mb-5" id="Shoes">
+          <h1>Shoes</h1>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
+              <div class="col ">
+                <div class="card border-0 h-100 shadow-lg ">
+                  <img src="panda-commerce-master/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Red Dragon shoes</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="m-3">
+                    <button class="btn button-color rounded-pill">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card border-0 h-100 shadow-lg ">
+                  <img src="panda-commerce-master/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Blue Ocian shoes</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="m-3">
+                      <button class="btn button-color rounded-pill">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card border-0 h-100 shadow-lg">
+                  <img src="panda-commerce-master/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Black Ninja Shoes</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="m-3">
+                      <button class="btn button-color rounded-pill">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
         <!-- Subscription -->
         <section style="height: 300px;" class="container panda-Background d-flex justify-content-center align-items-center rounded-3" id="subscribe">
             <div>
@@ -214,7 +263,7 @@
         </section>
     </main>
     <footer class="mt-5 text-center">
-        <p><small>©2021. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+        <p><small>©2021. Next Shopping. All rights reserved. Dhaka, Bangladesh.</small></p>
     </footer>
     <!-- bootstrap script -->
     <script src="bootstrap.bundle.min.js"></script>
