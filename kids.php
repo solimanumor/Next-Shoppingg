@@ -193,7 +193,30 @@ mysqli_set_charset($connection,'utf8');
         <section class="container mb-5" id="Shoes">
           <h1>Kids Dresses</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
-              <div class="col ">
+          <?php
+                $dress = mysqli_query($connection,"SELECT * FROM kid_dress");
+                while($row=mysqli_fetch_array($dress)){
+                  ?>
+                  <div class="col ">
+                  <div class="card border-0 h-100 shadow-lg ">
+                    <img src="<?php echo $row['img']; ?>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><?php echo $row['tittle']; ?></h5>
+                      <p class="card-text"><?php echo $row['des']; ?></p>
+                    </div>
+                    <div class="m-3">
+                        <h3>Taka-<?php echo $row['price']; ?>/-</h3>
+                      <button class="btn button-color rounded-pill">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <?php
+                }
+              ?>
+
+
+              <!-- <div class="col ">
                 <div class="card border-0 h-100 shadow-lg ">
                   <img src="panda-commerce-master/images/Kids dress/kd1.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -231,7 +254,7 @@ mysqli_set_charset($connection,'utf8');
                       <button class="btn button-color rounded-pill">Buy Now</button>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
       </section>
         <!-- Subscription -->
